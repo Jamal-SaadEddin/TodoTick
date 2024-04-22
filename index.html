@@ -9,66 +9,74 @@
 </head>
 
 <body>
-    <div>
-        <header>
-            <div class="header-logo"></div>
-            <div>
-                <input type="search" name="" id="" placeholder="Search tasks...">
-            </div>
-        </header>
-        <main>
-            <div class="open-tasks">
-                <div>
-                    <span>Today</span>
-                    <span>3</span>
-                    <span>+</span>
-                </div>
-                <div>
-                    <div>
-                        <div>Memorize the fifty states and their capitals</div>
-                        <div><input type="checkbox" name="" id=""></div>
-                        <div>Today</div>
-                    </div>
-                    <div>
-                        <div>Do something nice for someone I care about</div>
-                        <div><input type="checkbox" name="" id=""></div>
-                        <div>Today</div>
-                    </div>
-                    <div>
-                        <div>Watch a classic movie</div>
-                        <div><input type="checkbox" name="" id=""></div>
-                        <div>Today</div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="completed-tasks">
-                <div>
-                    <span>Completed</span>
-                    <span>2</span>
-                </div>
-                <div>
-                    <div>
-                        <div>Contribute code or a monetary donation to an open-source software project</div>
-                        <div><input type="checkbox" name="" id=""></div>
-                        <div>Today</div>
-                    </div>
-                    <div>
-                        <div>Solve a Rubik's cube</div>
-                        <div><input type="checkbox" name="" id=""></div>
-                        <div>Today</div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <span>All Tasks</span>
-                <span>5</span>
-            </div>
-        </main>
-        <footer>
-            <p>Copyright &copy; 2024 TodoTick.</p>
-        </footer>
-    </div>
+    <header>
+        <h1>TODO List</h1>
+        <div>
+            <input type="text" placeholder="Add new task...">
+            <button>Add</button>
+        </div>
+        <div>
+            <input type="search" name="" id="" placeholder="Search tasks...">
+        </div>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>TODO Description</th>
+                    <th>User ID</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Do something nice for someone I care about</td>
+                    <td>26</td>
+                    <td>Completed</td>
+                    <td><button>Delete</button><button>Done</button></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Do something nice for someone I care about</td>
+                    <td>26</td>
+                    <td>Completed</td>
+                    <td><button>Delete</button><button>Done</button></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Do something nice for someone I care about</td>
+                    <td>26</td>
+                    <td>Completed</td>
+                    <td><button>Delete</button><button>Done</button></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Do something nice for someone I care about</td>
+                    <td>26</td>
+                    <td>Completed</td>
+                    <td><button>Delete</button><button>Done</button></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Do something nice for someone I care about</td>
+                    <td>26</td>
+                    <td>Completed</td>
+                    <td><button>Delete</button><button>Done</button></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total tasks: <span>5</span></td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2024 TodoTick.</p>
+    </footer>
 </body>
 
 </html>
