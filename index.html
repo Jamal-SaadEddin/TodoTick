@@ -13,11 +13,11 @@
 <body>
     <header>
         <h1>TodoTick</h1>
-        <form>
-            <input type="text" required placeholder="Add new task...">
-            <button class="red-bg">Add</button>
-        </form>
-        <input class="search-input" type="search" name="" id="" placeholder="Search tasks...">
+        <div>
+            <input data-new-todo-input type="text" placeholder="Add new task...">
+            <button data-add-button class="red-bg">Add</button>
+        </div>
+        <input data-search-todo-input class="search-input" type="search" name="" id="" placeholder="Search tasks...">
     </header>
     <main>
         <table>
@@ -30,46 +30,11 @@
                     <th>Actions</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Do something nice for someone I care about</td>
-                    <td>26</td>
-                    <td>Completed</td>
-                    <td><button class="red-bg">Delete</button><button class="green-bg ml-10">Done</button></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Do something nice for someone I care about</td>
-                    <td>26</td>
-                    <td>Completed</td>
-                    <td><button class="red-bg">Delete</button><button class="green-bg ml-10">Done</button></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Do something nice for someone I care about</td>
-                    <td>26</td>
-                    <td>Completed</td>
-                    <td><button class="red-bg">Delete</button><button class="green-bg ml-10">Done</button></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Do something nice for someone I care about</td>
-                    <td>26</td>
-                    <td>Completed</td>
-                    <td><button class="red-bg">Delete</button><button class="green-bg ml-10">Done</button></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Do something nice for someone I care about</td>
-                    <td>26</td>
-                    <td>Completed</td>
-                    <td><button class="red-bg">Delete</button><button class="green-bg ml-10">Done</button></td>
-                </tr>
+            <tbody data-todos-container>
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="5">Total tasks: <span>5</span></td>
+                    <td data-total-todos-counter colspan="5"></td>
                 </tr>
             </tfoot>
         </table>
@@ -77,6 +42,7 @@
     <footer>
         <p>Copyright &copy; 2024 TodoTick.</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

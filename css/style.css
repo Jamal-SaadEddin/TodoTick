@@ -40,7 +40,12 @@ button {
   color: whitesmoke;
 }
 
-.ml-10 {
+.blue-bg {
+  background-color: #1976D2;
+  color: whitesmoke;
+}
+
+.m-10 {
   margin: 10px;
 }
 
