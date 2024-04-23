@@ -54,6 +54,11 @@ button {
   color: gray;
 }
 
+h1 > img {
+  width: 274px;
+  height: 152px;
+}
+
 table {
   width: 80%;
   text-align: center;
