@@ -49,6 +49,11 @@ button {
   margin: 10px;
 }
 
+.todo-completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
 table {
   width: 80%;
   text-align: center;

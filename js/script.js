@@ -15,6 +15,8 @@ const todoSearchInput = document.querySelector("[data-search-todo-input]");
 const todoNewInput = document.querySelector("[data-new-todo-input]");
 const addButton = document.querySelector("[data-add-button]");
 const totalTodoCounter = document.querySelector("[data-total-todos-counter]");
+const footer = document.querySelector("footer");
+footer.innerHTML = `<p>Copyright &copy; ${new Date().getFullYear()} TodoTick.</p>`;
 
 // Local storage keys
 const todos = "todos";
