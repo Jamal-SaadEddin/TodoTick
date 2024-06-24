@@ -54,6 +54,10 @@ button {
   color: gray;
 }
 
+[data-add-button] {
+  margin-left: 15px;
+}
+
 h1 > img {
   width: 274px;
   height: 152px;
