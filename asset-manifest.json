@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/TodoTick/static/js/main.e0c07509.js",
+    "index.html": "/TodoTick/index.html",
+    "main.e0c07509.js.map": "/TodoTick/static/js/main.e0c07509.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e0c07509.js"
+  ]
+}

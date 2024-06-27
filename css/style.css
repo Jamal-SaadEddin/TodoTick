@@ -1,0 +1,96 @@
+html {
+    /* 1 rem = 10px */
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  *,
+  ::before,
+  ::after {
+    box-sizing: border-box;
+  }
+
+body {
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+    font-family: monospace;
+}
+
+.search-input {
+  padding: 0.5rem 1rem;
+  width: 50rem;
+  margin: 2rem 0;
+}
+
+button {
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.green-bg {
+  background-color: #4CAF50;
+  color: whitesmoke;
+}
+
+.red-bg {
+  background-color: #F44236;
+  color: whitesmoke;
+}
+
+.blue-bg {
+  background-color: #1976D2;
+  color: whitesmoke;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.todo-completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+[data-add-button] {
+  margin-left: 15px;
+}
+
+h1 > img {
+  width: 274px;
+  height: 152px;
+}
+
+table {
+  width: 80%;
+  text-align: center;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+thead {
+  background-color: #F2F2F2;
+}
+
+td, th {
+  border: 1px solid gainsboro;
+  padding: 1.5rem 0;
+}
+
+@media (max-width: 986px) {
+  table {
+    width: 95%;
+  }
+}
+
+@media (max-width: 670px) {
+  table {
+    width: 100%;
+  }
+
+  .search-input {
+    width: 80%;
+  }
+}
