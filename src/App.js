@@ -1,4 +1,7 @@
 import { useEffect, useState } from "react";
+import "./css/normalize.css";
+import "./css/style.css";
+import LOGO from "./images/logo-black-removebg-preview.png";
 
 class TodoItem {
   constructor(todo) {
@@ -89,10 +92,7 @@ function App() {
     <div>
       <header>
         <h1>
-          <img
-            src="images/logo-black-removebg-preview.png"
-            alt="TodoTick Logo"
-          />
+          <img src={LOGO} alt="TodoTick Logo" />
         </h1>
         <div>
           <input
